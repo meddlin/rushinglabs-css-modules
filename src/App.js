@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import Paragraph from './Paragraph/Paragraph';
+import VerticalComponent from './VerticalComponent/VerticalComponent';
+import HorizontalComponent from './HorizontalComponent/HorizontalComponent';
+
 import './App.css';
 
 function App() {
+  const styles = {
+    blueStuff: {
+      color: 'blue'
+    },
+    redStuff: {
+      color: 'red'
+    }
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 style={styles.blueStuff}>CSS Modules</h2>
+      <div>
+        <p style={styles.redStuff}>some more stuff down here</p>
+      </div>
+
+      <Paragraph />
+      <VerticalComponent />
+      <HorizontalComponent />
     </div>
   );
 }
