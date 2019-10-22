@@ -6,7 +6,7 @@ Created with [create-react-app](https://github.com/facebook/create-react-app).
 
 <hr />
 
-*This repo was create to supplement a video for my [RushingLabs](https://www.youtube.com/channel/UCMbD6urmMQBUUxjjvyXgaxw) Youtube channel.*
+*This repo was created to supplement a video for my [RushingLabs](https://www.youtube.com/channel/UCMbD6urmMQBUUxjjvyXgaxw) Youtube channel.*
 
 [<img src="https://meddlin-web.s3.us-east-2.amazonaws.com/video-thumbnails/css-modules/1566721062761_20190825034449357.jpg" width="720" height="405">](https://www.youtube.com/watch?v=XLUaq8Qhx_w)
 
